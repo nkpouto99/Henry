@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: aqua;
+}
+
+nav {
+    height: 10vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+ul li {
+    list-style: none;
+    font-size: 18px;
+    font-weight: 700;
+    margin-right: 30px;
+    padding-top: 15px;
+}
+
+img{
+    height: 600px;
+    width: 1349.45px;
+}
+
+button {
+    height: 50px;
+    width: 150px;
+    background-color: blue;
+    text-align: center;
+    border: none;
+    border-radius: 30px;
+    margin-top: 40px;
+    margin-bottom: 75px;
+}
